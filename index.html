@@ -1,16 +1,196 @@
+</html>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/myscript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Dancing+Script&family=Sacramento&family=Satisfy&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        }
+        *{
+            padding: 0px;;
+            margin: auto;
+            box-sizing: border-box;
+        }
+        table#alter tr:nth-child(even) {
+            background-color: darkcyan;
+        }
+        table#alter tr:nth-child(odd){
+            color: white;
+        }
+        table{
+            height:100%;
+        }
+
+        table,
+        td {
+            border: 2px solid skyblue;
+            width: 100%;
+            font-size: 20px;
+            /* text-align: center; */
+            white-space: nowrap;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-radius: 30px;
+        }
+
+        tr:hover {
+            color: rgb(206, 197, 197);
+        }
+        .head2 td{
+            width:35%;
+        }
+        caption#a {
+            background-color: rgb(23, 23, 56);
+            color: white;
+            height: 50px;
+            justify-content: center;
+            border-radius: 3px;
+        }
+        /* caption{
+            margin-top: 20px;
+        } */
+
+        th {
+            text-align: center;
+            
+        }
+
+        th#std {
+            color: green;
+        }
+        table td a{
+            color:white;
+            text-decoration: none;
+        }
+        table td a:hover{
+            text-shadow: 2px 2px 2px black;
+        }
+        td .data{
+            width: 25%;;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>hello vani</h1>
-    <a href="./Assignment-1/dist/index.html">Assignment1</a>
-    <a href="./Assignment-2/index.html">Assignment2</a>
-    <a href="./Assignment-3/index.html">Assignment3</a>
-    
+    <table cellpadding="15" cellspacing="15" id="alter">
+        <tr>
+            <caption id="a">
+                Ingenuity Gaming Practicals
+
+            </caption>
+        </tr>
+        <tr>
+            <th># Practical Name</th>
+            <th class="head2">Link</th>
+            <th class="head3">Status</th>
+            <th class="head4">Tools</th>
+        </tr>
+        <tr>
+            <td> 1 Create a Pixi Application using NPM
+                tool.
+            </td>
+            <td class="data"><a href="./Assignment-1/dist/index.html">Pixi</a></td>
+            <td>Unchecked</td>
+            <td><i class="fa fa-pencil"></i> <i class="fa fa-trash"></i></td>
+        </tr>
+        <tr>
+            <td>2 Create a Button, On-clicking the
+                Button, show a Menu Screen and Menu Screen should have close button, which will
+                redirect to previous screen.. 
+            </td>
+            <td><a href="./Assignment-2/index.html">Create a Button </a></td>
+            <td>Unchecked</td>
+            <td><i class="fa fa-pencil"></i> <i class="fa fa-trash"></i></td>
+        </tr>
+        <tr>
+            <td>3 Create a Screen Having a Forward and
+                Backward Button 
+            </td>
+            <td><a href="./Assignment-3/index.html">Create a Screen</a>
+            </td>
+            <td>Unchecked</td>
+            <td><i class="fa fa-pencil"></i> <i class="fa fa-trash"></i>
+
+            </td>
+        </tr>
+        <tr>
+            <td>4 Create a screen having a Button,
+                clicking on a button show a Jackpot screen, which will automatically closed
+                after 3 sec.
+                . 
+            </td>
+            <td> <a href="./Assignment4-JackpotScreen/index.html">Jackpot screen</a></td>
+            <td>Unchecked</td>
+            <td><i class="fa fa-pencil"></i> <i class="fa fa-trash"></i></td>
+        </tr>
+        <tr>
+            <td>5  Create Three buttons.</td>
+            <td><a href="./Assignment5-Text,Icon,Border/index.html">Create Three buttons</a></td>
+            <td>Unchecked</td>
+            <td><i class="fa fa-pencil"></i> <i class="fa fa-trash"></i></td>
+        </tr>
+        <tr>
+            <td>6  Create a screen having a Toggle
+                Button,</td>
+            <td> <a href="./Assignment6-Sound/index.html">Toggle
+                Button</a></td>
+            <td>Unchecked</td>
+            <td><i class="fa fa-pencil"></i> <i class="fa fa-trash"></i></td>
+        </tr>
+        <tr>
+            <td>7  Create a screen having a Dropdown
+                Button.
+            </td>
+            <td> <a href="">Dropdown
+                Button.</a>
+            </td>
+            <td>Unchecked</td>
+            <td><i class="fa fa-pencil"></i> <i class="fa fa-trash"></i></td>
+        </tr>
+        <tr>
+            <td>8 Display all object one by one from a
+                Sprite sheet
+            </td>
+            <td> <a href="./Assignment8-DisplayObjectOneByOne/index.html">Display all object  </a>
+            </td>
+            <td>Unchecked</td>
+            <td><i class="fa fa-pencil"></i> <i class="fa fa-trash"></i></td>
+        </tr>
+        <tr>
+            <td>9 Create a screen having checkboxes and
+                a message, 
+                .</td>
+            <td> <a href="">checkboxes and
+                a message</a>
+            </td>
+            <td>Unchecked</td>
+            <td><i class="fa fa-pencil"></i> <i class="fa fa-trash"></i></td>
+        </tr>
+        <tr>
+            <td>10 Create a complete gaming clubbing all
+                features mentioned above.
+            </td>
+            <td> <a href="">Create a complete gaming</a>
+            </td>
+            <td>Unchecked</td>
+            <td><i class="fa fa-pencil"></i> <i class="fa fa-trash"></i></td>
+
+        </tr>
+        
+    </table>
 </body>
+
 </html>
